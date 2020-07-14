@@ -6,7 +6,9 @@
   },
   "flex-layout.row#main": {
     "props": {
-      "marginTop": 6
+      "marginTop": 6,
+      "preventVerticalStretch": true,
+      "verticalAlign": "middle"
     },
     "children": [
       "flex-layout.col#left",
@@ -14,19 +16,11 @@
     ]
   },
   "flex-layout.col#left": {
-    "props": {
-      "preventVerticalStretch": false,
-      "verticalAlign": "center"
-    },
     "children": [
       "product-images"
     ]
   },
   "flex-layout.col#right": {
-    "props": {
-      "preventVerticalStretch": true,
-      "verticalAlign": "center"
-    },
     "children": [
       "product-name",
       "product-price",
