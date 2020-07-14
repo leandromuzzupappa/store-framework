@@ -60,8 +60,9 @@
     "props": {
       "initialSelection": "empty",
       "showVariationsLabels": true,
-      "showValueForVariation": "all",
-      "showVariationsErrorMessage": true
+      "ShowValueForVariation": "image",
+      "showVariationsErrorMessage": true,
+      "hideImpossibleCombinations": true
     }
   }
 
