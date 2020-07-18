@@ -1,0 +1,29 @@
+{
+    "store.custom#landing": {
+        "blocks": [
+            "image#landingBanner",
+            "search-result-layout.customQuery"
+        ]
+    },
+    "image#landingBanner": {
+        "props": {
+            "src": "https://images.unsplash.com/photo-1518129183417-f293c4fe217b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80",
+            "minWidth": "100%"
+        }
+    },
+    "search-result-layout.customQuery": {
+        "blocks": [
+            "search-result-layout.desktop",
+            "search-result-layout.mobile",
+            "search-not-found-layout"
+        ],
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByReleaseDateDESC",
+                "hideUnavalibleItems": true,
+                "maxItemsPerPage": 8,
+                "queryField": "2"
+            }
+        }
+    }
+}
