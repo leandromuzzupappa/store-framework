@@ -18,11 +18,9 @@
             "search-not-found-layout"
         ],
         "props": {
-            "context": {
-                "skusFilter": "FIRST_AVAILABLE",
-                "simulationBehavior": "skip"
-            },
             "querySchema": {
+                "skusFilter": "FIRST_AVAILABLE",
+                "simulationBehavior": "skip",
                 "orderByField": "OrderByReleaseDateDESC",
                 "hideUnavalibleItems": true,
                 "maxItemsPerPage": 8,
