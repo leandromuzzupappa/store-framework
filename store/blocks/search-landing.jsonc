@@ -19,6 +19,8 @@
         ],
         "props": {
             "querySchema": {
+                "skusFilter": "FIRST_AVAILABLE",
+                "simulationBehavior": "skip",
                 "orderByField": "OrderByReleaseDateDESC",
                 "hideUnavalibleItems": true,
                 "maxItemsPerPage": 8,
