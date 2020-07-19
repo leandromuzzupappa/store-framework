@@ -36,7 +36,6 @@
     "header-row#main": {
         "children": [
             "logo",
-            "header-spacer",
             "search-bar",
             "minicart",
             "login"
@@ -54,10 +53,10 @@
             "minicart",
             "login"
         ],
+
         "props": {
-            "inverted": true,
             "sticky": true,
-            "fullwidth": false
+            "inverted": true
         }
     },
     "header-row#search": {
