@@ -34,18 +34,18 @@
         ]
     },
     "header-row#main": {
-        "props": {
-            "inverted": true,
-            "sticky": true,
-            "fullwidth": false
-        },
         "children": [
             "logo",
             "header-spacer",
             "search-bar",
             "minicart",
             "login"
-        ]
+        ],
+        "props": {
+            "inverted": true,
+            "sticky": true,
+            "fullwidth": false
+        }
     },
     "header-row#main-mobile": {
         "children": [
@@ -54,10 +54,10 @@
             "minicart",
             "login"
         ],
-
         "props": {
+            "inverted": true,
             "sticky": true,
-            "inverted": true
+            "fullwidth": false
         }
     },
     "header-row#search": {
