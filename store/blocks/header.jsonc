@@ -44,7 +44,7 @@
         "props": {
             "inverted": true,
             "sticky": true,
-            "fullwidth": true
+            "fullWidth": false
         }
     },
     "header-row#main-mobile": {
@@ -76,8 +76,7 @@
     },
     "logo": {
         "props": {
-            "url": "https://appliancetheme.vteximg.com.br/assets/vtex.file-manager-graphql/images/flatflat___6081e50402943bcb11bc45a8e613aa72.png",
-            "color": "#FFFFFF"
+            "url": "https://appliancetheme.vteximg.com.br/assets/vtex.file-manager-graphql/images/flatflat___6081e50402943bcb11bc45a8e613aa72.png"
         }
     },
     "search-bar": {
