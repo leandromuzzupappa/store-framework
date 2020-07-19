@@ -78,6 +78,11 @@
             "url": "https://appliancetheme.vteximg.com.br/assets/vtex.file-manager-graphql/images/flatflat___6081e50402943bcb11bc45a8e613aa72.png"
         }
     },
+    "minicart": {
+        "props": {
+            "variation": "drawer"
+        }
+    },
     "rich-text#header": {
         "props": {
             "text": "**Free Shipping on orders over $50**",
